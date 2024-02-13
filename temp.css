@@ -1,0 +1,126 @@
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+h5{
+    border: 2px solid blue;
+}
+#first{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    justify-content: space-justify;
+    margin-top: 40px;
+    gap: 10px;   
+}
+#top{
+    text-align: center;
+}
+h2{
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+}
+h5{
+    margin-top: 25px;
+}
+#one{
+    margin-left: 38px;
+}
+#two{
+    margin-left: 38px;
+}
+#three{
+    margin-left: 38px;
+}
+@media(max-width:321px){
+    #first{
+        display: grid;
+        grid-template-columns: 110px;
+        margin-left: -27px;
+    }
+    #top{
+        font-size: 20px;
+    }
+}
+@media(min-width:322px) and (max-width:376px){
+    #first{
+        display: grid;
+        grid-template-columns: 110px;
+        margin-left: -33px;
+    }
+    *{
+        font-size: 20px;
+    }
+    .rectangle{
+        width: 362px;
+    }
+}
+@media(min-width:377px) and (max-width:426px){
+    #first{
+        display: grid;
+        grid-template-columns: 110px;
+        margin-left: -30px;
+    }
+    #top{
+        font-size: 20px;
+    }
+    .rectangle{
+        width: 412px;
+    }
+}
+@media (min-width:427px) and (max-width:768px){
+    #first{
+        display: grid;
+        grid-template-columns: 300px 300px;
+        gap: 62px;
+        margin-top: 20px;
+        margin-left: 18px;
+    }
+    #three{
+        margin-left: 212px;
+        margin-top: -51px;
+    }
+}
+@media (min-width:769px) and (max-width:1025px){
+    .rectangle{
+        width: 350px;
+        height: 600px;
+    }
+    #first{
+        font-size: 30px;
+    }
+    #top{
+        font-size: 27px;
+        margin-right: -273px;
+    }
+}
+@media (min-width:1026px) and (max-width:1441px){
+    .rectangle{
+        width: 400px;
+        height: 931px;
+    }
+    #first{
+        font-size: 46px;
+        gap: 95px;
+    }
+    #top{
+        font-size: 41px;
+    }
+}
+@media(min-width:1442px) and (max-width:2560px){
+    #first{
+        display: grid;
+        grid-template-columns: 850px 850px 850px;
+        font-size: 85px;
+    }
+    .rectangle{
+        width: 700px;
+        height: 1750px;
+    }
+    #top{
+        font-size: 72px;
+    }
+}
